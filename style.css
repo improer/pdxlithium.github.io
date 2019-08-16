@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700|Rajdhani:300,400,500,600,700&display=swap&subset=latin-ext');
+
+body {
+  border: unset;
+  margin: unset;
+  background: black;
+  line-height: 1;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 53px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+section {
+  min-height: 50vh;
+  padding: 1rem;
+  background: url(https://www.anthropic.tech/robots/noise.png);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100vw;
+  height: 53px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  border-top: 2px solid white;
+}
+
+hr {
+  width: 20%;
+  margin-right: 80%;
+  border: none;
+  height: 2px;
+  background: white;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, p, a {
+  margin: unset;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.b-black {
+  background-color: black;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h1, h2 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+p {
+  font-family: 'Overpass Mono', monospace;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slide1 {
+  max-width: 800px;
+  margin: auto;
+}
+
+.slide2 {
+  margin: auto;
+}
+
+.yellow-backing {
+  background-color: yellow;
+  margin: -1rem;
+  padding: 1rem;
+}
+
+.blue-backing {
+  background-color: blue;
+  margin: -1rem;
+  padding: 1rem;
+}
+
+.blue-backing {
+  background-color: blue;
+  margin: -1rem;
+  padding: 1rem;
+}
+
+.black-backing {
+  background-color: black;
+  margin: -1rem;
+  padding: 1rem;
+}
+
+.dots {
+  background-image: url(https://www.pointblank.company/dot.png);
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(atom.gif);
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.about {}
+
+.showcase {
+  border: 2px solid white;
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.show-row {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.product {
+  padding: 1rem;
+  margin: 1rem;
+  height: 200px;
+  width: 200px;
+  background: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.product:hover {
+  padding: 1rem;
+  margin: 0rem;
+  border: 1rem solid blue;
+  height: 200px;
+  width: 200px;
+  background: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.raj {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.lite {
+  font-weight: 100;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.menu-wrap {
+  margin-right: 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.logo-wrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.logo-row {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.logo-li {
+  margin: 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 22px;
+  width: 24px;
+  padding-top: 2px;
+  border: 2px solid white;
+  transition: border-left-color 200ms, border-bottom-color 400ms, border-right-color 600ms, border-top-color 800ms, box-shadow 2000ms ease;
+}
+
+.logo-li p {
+  transition: color 1000ms ease;
+}
+
+.logo-li:hover p {
+  color: yellow;
+}
+
+.logo-li:hover {
+  box-shadow: 0px 0px 0px 2px yellow;
+  border-left-color: blue;
+  border-bottom-color: blue;
+  border-right-color: blue;
+  border-top-color: blue;
+}
+
+.logo {
+  padding-left: 16px;
+}
+
+.menu {
+  padding-right: 8px;
+  display: flex;
+  flex-flow: row;
+}
+
+.m-i {
+  padding: 0px 8px 0px 8px;
+  transition: filter 200ms, box-shadow 500ms ease;
+}
+
+.m-i p {
+  transition: color 200ms, box-shadow 500ms ease;
+  margin: 8px 0px 4px 0px;
+}
+
+.m-i:hover p {
+  box-shadow: 0px 4px yellow;
+  color: yellow;
+}
+
+.foot-wrap {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  /* for vertical scrollbars */
+  height: 12px;
+  /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: yellow;
+}
+
+.legal {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.legal p{margin-top:8px;}
+
+@media screen and (max-width:900px) {
+  .menu {
+    flex-flow: wrap;
+  }
+}
