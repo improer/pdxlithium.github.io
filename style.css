@@ -278,6 +278,12 @@ a {
   line-height: 0.5;
 }
 
+.hero-mini {
+  background-color: blue;
+  background-image: url(https://www.anthropic.tech/robots/dash.png);
+  background-blend-mode: normal;
+}
+
 .logo-li p {
   transition: color 1000ms ease;
 }
