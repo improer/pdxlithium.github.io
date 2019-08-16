@@ -73,8 +73,20 @@ h2 {
   font-size: 32px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
 h1, h2 {
   font-family: 'Rajdhani', sans-serif;
+}
+
+h3, h4 {
+  font-family: 'Overpass Mono', monospace;
 }
 
 p {
@@ -153,6 +165,7 @@ a {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  max-width: 530px;
 }
 
 .product {
@@ -164,6 +177,14 @@ a {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  box-shadow: 4px 4px yellow;
+}
+
+.featured {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .product:hover {
@@ -226,11 +247,35 @@ a {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  height: 22px;
+  height: 20px;
   width: 24px;
-  padding-top: 2px;
+  padding-top: 4px;
   border: 2px solid white;
   transition: border-left-color 200ms, border-bottom-color 400ms, border-right-color 600ms, border-top-color 800ms, box-shadow 2000ms ease;
+}
+
+.logo-li-lg {
+  margin-bottom: 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 226px;
+  width: 256px;
+  padding-top: 30px;
+  border: 16px solid white;
+  transition: border-left-color 200ms, border-bottom-color 400ms, border-right-color 600ms, border-top-color 800ms, box-shadow 2000ms ease;
+}
+
+.li-bg {
+  font-weight: 800;
+  text-align: center;
+  margin: unset;
+  font-size: 128px;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 0.5;
 }
 
 .logo-li p {
@@ -251,6 +296,10 @@ a {
 
 .logo {
   padding-left: 16px;
+}
+
+.title {
+  font-size: 128px
 }
 
 .menu {
@@ -305,10 +354,50 @@ a {
   justify-content: center;
   margin-right: 2rem;
 }
-.legal p{margin-top:8px;}
+
+.legal p {
+  margin-top: 8px;
+}
 
 @media screen and (max-width:900px) {
+  .title {
+    font-size: 64px
+  }
+
+  .showcase {
+    border: 0px solid transparent;
+  }
+
+  .product {
+    width: auto;
+    min-width: 60vw;
+  }
+
   .menu {
+    justify-content: flex-end;
     flex-flow: wrap;
   }
-}
+
+  .logo-li-lg {
+    margin-bottom: 16px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 108px;
+    width: 128px;
+    padding-top: 20px;
+    border: 12px solid white;
+    transition: border-left-color 200ms, border-bottom-color 400ms, border-right-color 600ms, border-top-color 800ms, box-shadow 2000ms ease;
+  }
+
+  .li-bg {
+    font-weight: 800;
+    text-align: center;
+    margin: unset;
+    font-size: 64px;
+  }
+
+  .hero-title {
+    font-size: 30px;
+    line-height: 0.5;
+  }
