@@ -100,6 +100,17 @@ a {
   color: inherit;
 }
 
+.stretch {
+  letter-spacing: inherit;
+  transition: letter-spacing 500ms ease;
+}
+
+.stretch:hover {
+  letter-spacing: 1px;
+}
+
+.black-shadow{box-shadow:4px 4px black;}
+
 .slide1 {
   max-width: 800px;
   margin: auto;

@@ -8,6 +8,13 @@
   <title>dorado Batteries</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.png">
+  <meta property="og:title" content="PDX Lithium Batteries">
+  <meta property="og:description" content="Lithium Battery's for all kinds of electric rides">
+  <meta property="og:image" content="https://www.pdxlithium.com/thumbnail.jpg">
+  <meta property="og:url" content="https://www.pdxlithium.com/index.html">
+  <meta name="twitter:card" content="PDX Lithium Batteries">
+  <meta property="og:site_name" content="PDX Lithium Batteries">
+  <meta name="twitter:image:alt" content="PDX Lithium Batteries">
 </head>
 
 <body>
