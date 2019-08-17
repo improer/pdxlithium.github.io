@@ -335,6 +335,40 @@ a {
   justify-content: space-between;
 }
 
+.row {
+  display: flex;
+  flex-flow: row;
+}
+
+.right {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.descimg {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background: white;
+  width: 128px;
+  height: 128px;
+  margin-right: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.descimg img {
+  width: 120px;
+  padding: 4px;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
   /* for vertical scrollbars */
@@ -366,6 +400,24 @@ a {
 }
 
 @media screen and (max-width:900px) {
+  header {
+    max-height: 100px;
+  }
+
+  .descimg {
+    width: 76px;
+    height: 76px;
+  }
+
+  .descimg img {
+    width: 60px;
+    padding: 7px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
   .title {
     font-size: 64px
   }
