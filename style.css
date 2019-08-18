@@ -154,7 +154,10 @@ a {
   box-shadow: 4px 4px black;
 }
 
-.product-image{width:auto;}
+.product-image {
+  width: auto;
+}
+
 .slide1 {
   max-width: 800px;
   margin: auto;
@@ -163,8 +166,9 @@ a {
 .slide3 {
   max-width: 800px;
   margin: auto;
-  padding-top:2rem;
+  padding-top: 2rem;
 }
+
 .slide2 {
   margin: auto;
 }
@@ -224,6 +228,19 @@ a {
   flex-flow: wrap;
   justify-content: center;
   max-width: 530px;
+}
+
+.show-row-mid {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.show-row-wide {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 .product {
@@ -331,6 +348,13 @@ a {
 
 .hero-mini {
   background-color: blue;
+  background-image: url(https://www.anthropic.tech/robots/dash.png);
+  background-blend-mode: normal;
+}
+
+.hero-micro {
+  min-height:25vh!important;
+  padding-top: 2rem;
   background-image: url(https://www.anthropic.tech/robots/dash.png);
   background-blend-mode: normal;
 }
@@ -509,7 +533,10 @@ a {
     margin: unset;
     font-size: 64px;
   }
-  .product-image{width:128px;}
+
+  .product-image {
+    width: 128px;
+  }
 
   .hero-title {
     font-size: 30px;
