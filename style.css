@@ -39,6 +39,23 @@ footer {
   border-top: 2px solid white;
 }
 
+table {}
+
+th {
+  border-left: 2px solid white;
+  padding: 4px 1rem;
+}
+
+th:nth-child(1) {
+  border: none;
+}
+
+tr {}
+
+td {
+  text-align: center;
+}
+
 hr {
   width: 20%;
   margin-right: 80%;
@@ -51,18 +68,6 @@ hr {
 
 h1, h2, h3, h4, h5, p, a {
   margin: unset;
-}
-
-.white {
-  color: white;
-}
-
-.black {
-  color: black;
-}
-
-.b-black {
-  background-color: black;
 }
 
 h1 {
@@ -100,6 +105,42 @@ a {
   color: inherit;
 }
 
+.raj {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.lite {
+  font-weight: 100;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.b-black {
+  background-color: black;
+}
+
 .stretch {
   letter-spacing: inherit;
   transition: letter-spacing 500ms ease;
@@ -109,13 +150,21 @@ a {
   letter-spacing: 1px;
 }
 
-.black-shadow{box-shadow:4px 4px black;}
+.black-shadow {
+  box-shadow: 4px 4px black;
+}
 
+.product-image{width:auto;}
 .slide1 {
   max-width: 800px;
   margin: auto;
 }
 
+.slide3 {
+  max-width: 800px;
+  margin: auto;
+  padding-top:2rem;
+}
 .slide2 {
   margin: auto;
 }
@@ -161,8 +210,6 @@ a {
   justify-content: center;
 }
 
-.about {}
-
 .showcase {
   border: 2px solid white;
   padding: 1rem;
@@ -198,6 +245,23 @@ a {
   min-height: 100vh;
 }
 
+.flex-start {
+  justify-content: flex-start;
+}
+
+.specs-wrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.specs-title {}
+
+.specs {
+  border: 2px solid white;
+  padding: 1rem;
+}
+
 .product:hover {
   padding: 1rem;
   margin: 0rem;
@@ -208,30 +272,6 @@ a {
   display: flex;
   flex-flow: column;
   justify-content: center;
-}
-
-.raj {
-  font-family: 'Rajdhani', sans-serif;
-}
-
-.bold {
-  font-weight: 800;
-}
-
-.lite {
-  font-weight: 100;
-}
-
-.normal {
-  font-weight: 400;
-}
-
-.bold {
-  font-weight: 800;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
 
 .menu-wrap {
@@ -433,6 +473,10 @@ a {
     font-size: 64px
   }
 
+  .row {
+    flex-flow: wrap;
+  }
+
   .showcase {
     border: 0px solid transparent;
   }
@@ -465,6 +509,7 @@ a {
     margin: unset;
     font-size: 64px;
   }
+  .product-image{width:256px;}
 
   .hero-title {
     font-size: 30px;
