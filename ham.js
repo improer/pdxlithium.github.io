@@ -1,5 +1,5 @@
 function menu() {
-  document.getElementById('menu').style.cssText = 'position:absolute;margin-right:0.5rem;top:0px;display:flex;flex-flow:column;height:500px;overflow:visible;justify-content:flex-start;';
+  document.getElementById('menu').style.cssText = 'position:absolute;right:1rem;top:0px;display:flex;flex-flow:column;height:500px;overflow:visible;justify-content:flex-start;';
   document.getElementById('ham').style.cssText = 'display:none;';
 }
 
