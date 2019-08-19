@@ -18,10 +18,11 @@
   <title>PDX Lithium</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.png">
+  <script src="ham.js"></script>
 
-</head>
+  </head>
 
-<body>
+  <body>
   <header>
     <div class="logo-wrap white">
       <img src="" class="logo" alt="">
@@ -32,11 +33,14 @@
       </div>
     </div>
     <div class="menu-wrap">
-      <div class="menu">
+      <div class="ham" onmouseup="menu()">
+        <h2 class="white" id="ham" style="margin:1rem;">☰</h2>
+      </div>
+      <div class="menu" id="menu">
         <a href="index.html" class="m-i white">
           <p>Home</p>
         </a>
-        <a href="#about" class="m-i white">
+        <a href="index.html#about" class="m-i white">
           <p>About</p>
         </a>
         <a href="batteries.html" class="m-i white">
@@ -45,9 +49,12 @@
         <a href="customize.html" class="m-i white">
           <p>Customize</p>
         </a>
-        <a href="#contact" class="m-i white">
+        <a href="index.html#contact" class="m-i white">
           <p>Contact</p>
         </a>
+        <div onmouseup="ham()">
+          <p class="m-i close uppercase bold">Close</p>
+        </div>
       </div>
     </div>
   </header>
@@ -66,10 +73,10 @@
     <div class="slide1">
 
       <div class="blue-backing">
-        <h1 class="uppercase lite white">A Bit About Us</h1>
+        <h1 class="uppercase lite white">We Went Electric</h1>
       </div>
       <div class="yellow-backing" style="color:black!important;">
-        <h2 class="lite">We went electric</h2><br>
+        <h2 class="lite">A Bit About Us</h2><br>
         <p>Portland is no doubt the city of cycling. From fixies to double deckers, we've seen it all.
         </p><br>
         <p>In recent years many have begun to slide electric conversions into their inventory of bikes, increasing distance and speed, making a once gruling hilly commute nothing but a breeze</p>

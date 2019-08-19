@@ -18,6 +18,7 @@
   <title>Dorado Downtube Battery</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.png">
+  <script src="ham.js"></script>
 
 </head>
 
@@ -32,7 +33,10 @@
       </div>
     </div>
     <div class="menu-wrap">
-      <div class="menu">
+      <div class="ham" onmouseup="menu()">
+        <h2 class="white" id="ham" style="margin:1rem;">☰</h2>
+      </div>
+      <div class="menu" id="menu">
         <a href="index.html" class="m-i white">
           <p>Home</p>
         </a>
@@ -48,55 +52,52 @@
         <a href="index.html#contact" class="m-i white">
           <p>Contact</p>
         </a>
+        <div onmouseup="ham()">
+          <p class="m-i close uppercase bold">Close</p>
+        </div>
       </div>
     </div>
   </header>
-  <section>
-    <div class="slide3">
+  <section class="hero-micro">
+    <div class="slide3 white">
       <div class="row">
         <div class="left">
-          <img class="product-image" src="battery/downtube/dorado/j016mb.png" alt="">
-          <div class="imgdesc white" style="transform:rotate(35deg);">
-            <h1 class=" uppercase">DORADO</h1>
-            <hr>
-            <p class="uppercase">in frame batteries</p>
+          <h1 class=" uppercase">DORADO Batteries</h1>
+          <div class="right">
           </div>
         </div>
-        <div class="right">
-        </div>
       </div>
-    </div>
   </section>
 
   <section class="featured ">
     <div class="slide2 white">
       <div>
-        <div class="showcase black">
-          <div class="show-row">
-            <a href="downtube.html">
-              <div class="product p1">
-                <img src="battery/downtube/dorado/j016pb.png" style="width:128px;" alt="">
+        <div class=" black">
+          <div class="show-row-lg">
+            <a href="doradoplus.html">
+              <div class="product-lg p1">
+                <img src="battery/downtube/dorado/j016pb.png" alt="">
                 <hr class="b-black">
                 <h3>Dorado+</h3>
               </div>
             </a>
 
-            <a href="shark.html">
-              <div class="product p1">
-                <img src="battery/downtube/dorado/j016mb.png" style="width:128px;" alt="">
+            <a href="doradomega.html">
+              <div class="product-lg p1">
+                <img src="battery/downtube/dorado/j016mb.png" alt="">
                 <hr class="b-black">
-                <h3>Dorado</h3>
+                <h3>Dorado Mega</h3>
               </div>
             </a>
             <a href="customize.html">
-              <div class="product p1">
+              <div class="product-lg p1">
                 <h3>Need One Customized?</h3>
                 <hr class="b-black">
                 <p>Hop Over To Custom ></p>
               </div>
             </a>
-            <a href="customize.html">
-              <div class="product p1">
+            <a href="downtube.html">
+              <div class="product-lg p1">
                 <h3>Looking For Other Styles?</h3>
                 <hr class="b-black">
                 <p>Go to Downtubes ></p>

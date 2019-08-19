@@ -18,10 +18,11 @@
   <title>PDX Lithium</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.png">
+  <script src="ham.js"></script>
 
-</head>
+  </head>
 
-<body>
+  <body>
   <header>
     <div class="logo-wrap white">
       <img src="" class="logo" alt="">
@@ -32,7 +33,10 @@
       </div>
     </div>
     <div class="menu-wrap">
-      <div class="menu">
+      <div class="ham" onmouseup="menu()">
+        <h2 class="white" id="ham" style="margin:1rem;">☰</h2>
+      </div>
+      <div class="menu" id="menu">
         <a href="index.html" class="m-i white">
           <p>Home</p>
         </a>
@@ -48,6 +52,9 @@
         <a href="index.html#contact" class="m-i white">
           <p>Contact</p>
         </a>
+        <div onmouseup="ham()">
+          <p class="m-i close uppercase bold">Close</p>
+        </div>
       </div>
     </div>
   </header>
@@ -75,7 +82,7 @@
         </div>
       </div>
     </section>
-    
+
   <footer>
     <div class="foot-wrap white">
       <div class="logo-li">
