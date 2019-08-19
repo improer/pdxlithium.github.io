@@ -636,7 +636,7 @@ a {
   .close:hover {
     border-bottom: 4px solid indianred;
   }
-
+  .menu-wrap{margin-right:0px;}
   .menu {
     display: none;
     overflow: hidden;
